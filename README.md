@@ -6,6 +6,8 @@ This is a sample project demonstrating how you can set up Travis CI and execute 
 
 See additional details about Travis CI setup here: https://docs.travis-ci.com/user/getting-started/
 
+For a more in-depth explaination please visit [https://www.sveltefox.com/posts/getting+started+with+travis+ci](https://www.sveltefox.com/posts/getting+started+with+travis+ci)
+
 ## Initial Setup Steps
 
 If you do not already have a Travis CI account, you can sign up for one here: https://travis-ci.org
