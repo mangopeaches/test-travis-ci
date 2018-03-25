@@ -28,4 +28,4 @@ You can see the full phpunit.xml [here](phpunit.xml)
 
 ## Conclusion
 
-With test simple steps: enabling the repo, defining a .travis.yml config, and defining a phpunit.xml file we have very simply set up our project to automatically perform unit tests on commit.
+With test simple steps: enabling the repo, defining a .travis.yml config, and defining a phpunit.xml file we have very simply set up our project to automatically perform unit tests on commit. Now when a pull request is submitted the requester will automatically see whether or not the build has succeeded and can view the results of the build.
