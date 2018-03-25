@@ -64,4 +64,15 @@ class PersonTest extends \PHPUnit_Framework_TestCase
 		$person = new Person('Steve', 'Smith', 39);
 		$this->assertEquals(39, $person->getAge());
 	}
+
+	/**
+	 * Tests incrementing age
+	 * @return void
+	 */
+	public function testAgeIncrease()
+	{
+		$person = new Person('Steve', 'Smith', 39);
+		$person->age(10);
+		$this->assertEquals(49, $person->getAge());
+	}
 }

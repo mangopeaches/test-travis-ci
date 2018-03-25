@@ -83,4 +83,14 @@ class Person
 	{
 		return sprintf('%s %s', $this->firstName, $this->lastName);
 	}
+
+	/**
+	 * Changes the age of the person
+	 * @param int $years number of years to change
+	 * @return void
+	 */
+	public function age($years)
+	{
+		$this->age += $years;
+	}
 }
