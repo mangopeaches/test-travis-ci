@@ -1,5 +1,7 @@
 # test-travis-ci
 
+[![Build Status](https://travis-ci.org/mangopeach/mangopeach.svg?branch=master)](https://travis-ci.org/mangopeach/test-travis-ci)
+
 This is a sample project demonstrating how you can set up Travis CI and execute unit tests automatically.
 
 See additional details about Travis CI setup here: https://docs.travis-ci.com/user/getting-started/
